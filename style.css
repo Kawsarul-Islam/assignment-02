@@ -227,12 +227,13 @@ nav ul li {
     width: 700px;
     height: 920px;
     margin-left: 55px;
+    
 }
 
 .section-img-2 img {
-    width: 550px;
+    width: 565px;
     height: 920px;
-    margin: 0 0 77px 92px;
+    margin: 0 0 77px 86px;
 }
 
 /* Main section-2 btn styles */
@@ -290,7 +291,7 @@ nav ul li {
 
 /* main icon section-3 styles */
 
-.icon-section{
+.icon-section {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 180px;
@@ -303,23 +304,109 @@ nav ul li {
     border-radius: 8px;
     text-align: center;
     padding-top: 60px;
+    transition: transform 2s ease-in-out;
+    
+}
+.icon-details:hover{
+    transform: scale(0.5) rotate(360deg); 
+    
 }
 
-.icon-img{
+
+.icon-img {
     width: 35px;
     height: 35px;
     margin-bottom: 8px;
 }
 
-.hi-54{
+.hi-54 {
     color: #424242;
     font-size: 39px;
     font-weight: 700;
     margin-bottom: 8px;
 }
 
-.icon-description{
+.icon-description {
     color: #727272;
     font-size: 15px;
     font-weight: 600;
+}
+
+
+/* sponsor section styles */
+
+.sponsors-section {
+    width: 520px;
+    text-align: center;
+    margin-left: 490px;
+    margin-bottom: 50px;
+
+}
+
+.sponsors-title {
+    margin-bottom: 24px;
+    color: #131313;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.sponsor-description {
+    color: #727272;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* sponsor img section styles */
+
+
+.sponsors-img {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 130px;
+    mix-blend-mode: screen;
+}
+
+.spns-img-1 img {
+    width: 150px;
+    height: 35px;
+}
+
+.spns-img-2 img {
+    width: 130px;
+    height: 30px;
+}
+
+.spns-img-3 img {
+    width: 150px;
+    height: 35px;
+}
+
+.spns-img-4 img {
+    width: 130px;
+    height: 34px;
+
+}
+
+.spns-img-5 img {
+    width: 166px;
+    height: 34px;
+}
+
+/* footer section styles */
+
+
+.footer-section {
+    width: 1255px;
+    background: #FFF4E7;
+    border-radius: 10px;
+    text-align: center;
+    padding: 40px 0;
+    margin: 0 240px 210px 140px;
+    
+}
+
+.footer-description {
+    color: #424242;
+    font-size: 16px;
+    font-weight: 400;
 }
